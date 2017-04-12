@@ -1,0 +1,3 @@
+[submodule ".vim/pack/opt/lucario-colorscheme"]
+	path = .vim/pack/opt/lucario-colorscheme
+	url = https://github.com/raphamorim/lucario
