@@ -1,3 +1,9 @@
 [submodule ".vim/pack/bundles/opt/lucario"]
 	path = .vim/pack/bundles/opt/lucario
 	url = https://github.com/raphamorim/lucario
+[submodule ".vim/pack/bundles/start/typescript"]
+	path = .vim/pack/bundles/start/typescript
+	url = https://github.com/leafgarland/typescript-vim
+[submodule ".vim/pack/bundles/start/emmet"]
+	path = .vim/pack/bundles/start/emmet
+	url = https://github.com/mattn/emmet-vim.git
