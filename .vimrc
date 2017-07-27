@@ -3,7 +3,11 @@ syntax enable
 filetype plugin indent on
 
 set hidden
-set history=100
+set history=1000
+
+" History undo
+set undofile
+set undodir=$HOME/.vim/undofiles/
 set number
 set encoding=UTF-8
 
@@ -60,3 +64,8 @@ set wildignore+=*vendor/**
 set wildignore+=.git
 set wildignore+=*~,*.swp,*.swo,*.tmp
 
+" Fix backspace
+set backspace=indent,eol,start
+
+" Swap files in scpecific directory
+set directory=$HOME/.vim/swapfiles//
