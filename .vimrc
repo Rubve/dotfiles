@@ -69,3 +69,4 @@ set backspace=indent,eol,start
 
 " Swap files in scpecific directory
 set directory=$HOME/.vim/swapfiles//
+
